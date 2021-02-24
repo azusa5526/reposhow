@@ -9,11 +9,13 @@ import isoTimeConvert from './filters/isoTimeConvert.js';
 
 Vue.config.productionTip = false;
 
+// Axios
 Vue.use(VueAxios, axois);
 
 // Global Loading component
 Vue.component('Loading', Loading);
 
+// Filter
 Vue.filter('isoTimeConvert', isoTimeConvert);
 
 new Vue({

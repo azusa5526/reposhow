@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+// Global
 #app {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,6 +23,11 @@ a {
   text-decoration: none;
 }
 
+// app
+.main-container {
+  min-height: 1000px;
+}
+
 .sidebar-item {
   position: relative;
   @include media-breakpoint-up(lg) {
@@ -42,10 +48,6 @@ a {
     top: 0;
     padding: 0 15px;
   }
-}
-
-.min-height-100vh {
-  min-height: 100vh;
 }
 
 .toTop {
