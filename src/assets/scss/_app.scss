@@ -23,9 +23,16 @@ a {
   text-decoration: none;
 }
 
-// app
 .main-container {
   min-height: 1000px;
+}
+
+// app
+.intro {
+  background-image: url('~@/assets/img/puipui_intro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .sidebar-item {
